@@ -16,4 +16,6 @@ add_filter('excerpt_more', function($more) {
 	return '...';
 });
 
+add_theme_support( 'post-formats', array( 'aside', 'audio', 'image', 'video' ) );
+
 ?>

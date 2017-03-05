@@ -39,3 +39,12 @@ a.blog-btn{
 .header-top-area, .sidebar-widget-tab > .active a, .pagetitle-separator-box {
     background: none repeat scroll 0 0 #229bde;
 }
+
+.table > tbody > tr > td{
+    border: none;
+}
+
+.slide-text-bg2 h1 {
+    border-top: none;
+    border-bottom: none;
+}

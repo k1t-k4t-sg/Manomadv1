@@ -7,7 +7,7 @@
 	<?php if($current_options['home_banner_enabled'] == true) { ?>
 				
 					<?php if($current_options['slider_image']){ ?>
-					<img class="img-responsive CUSTOM_manomadv" alt="Sleek &amp; Beautiful" src="<?php echo esc_url($current_options['slider_image']); ?>">
+					<img class="img-responsive CUSTOM_manomadv" alt="Sleek &amp; Beautiful" src="/wp-content/uploads/2017/03/one.jpg">
 					<?php } ?>
 					<div class="flex-slider-center">
 					<?php if($current_options['slider_title_one']){ ?>
@@ -16,9 +16,9 @@
 						<?php if($current_options['slider_title_two']){ ?>
 						<div class="slide-text-bg2"><h1><?php echo esc_html ($current_options['slider_title_two']); ?></h1></div>
 						<?php } ?>
-						<?php if($current_options['slider_description']) { ?>
-						<div class="slide-text-bg3"><p><?php echo esc_html ($current_options['slider_description']); ?></p></div>
-						<?php } ?>
+						<?php //if($current_options['slider_description']) { ?>
+						<!--div class="slide-text-bg3"><p><?php// echo esc_html ($current_options['slider_description']); ?></p></div-->
+						<?php //} ?>
 					</div>
 				
 			<?php } ?>

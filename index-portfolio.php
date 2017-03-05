@@ -21,9 +21,12 @@
 					</div>
 				</div>
 				<?php //} ?>
-			<?php //if($current_options['portfolio_description']) { ?>
-				<p>Отличный отдых для вас!<?php //echo esc_html($current_options['portfolio_description']); ?></p>
-			<?php //} ?>
+				
+				<?php if($current_options['slider_description']) { ?>
+				<div class="slide-text-bg3">
+				    <p><?php echo esc_html ($current_options['slider_description']); ?></p>
+				</div>
+				<?php } ?>
 			    <!--
 				
 				End CUSTOM manomadv1 (title)
