@@ -1,4 +1,4 @@
 
 (function($) {
-	console.log("START ==> Manomadv1");
+	console.log("START ==> Manomadv1.js");
 })(jQuery);
