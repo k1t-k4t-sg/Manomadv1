@@ -9,21 +9,31 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 
 		<div class="row">
 			<div class="section_heading_title">
-				<?php if($current_options['portfolio_title']) { ?>
-				<h1><?php echo esc_html($current_options['portfolio_title']); ?></h1>
+				<!--
+				
+				Start CUSTOM manomadv1 (title)
+				
+				-->
+				<?php // if($current_options['portfolio_title']) { ?>
+				<h1>Услуги</h1>
 				<div class="pagetitle-separator">
 					<div class="pagetitle-separator-border">
 						<div class="pagetitle-separator-box"></div>
 					</div>
 				</div>
-			<?php } ?>
-			<?php if($current_options['portfolio_description']) { ?>
-				<p><?php echo esc_html($current_options['portfolio_description']); ?></p>
-			<?php } ?>				
+				<?php //} ?>
+			<?php //if($current_options['portfolio_description']) { ?>
+				<p>Отличный отдых для вас!<?php //echo esc_html($current_options['portfolio_description']); ?></p>
+			<?php //} ?>
+			    <!--
+				
+				End CUSTOM manomadv1 (title)
+				
+                -->		
 			</div>
 		</div>
 		<div class="row">
-		<?php if($current_options['portfolio_image_one']) { ?>
+		    <?php if($current_options['portfolio_image_one']) { ?>
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
@@ -39,14 +49,18 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 									<?php if($current_options['portfolio_description_one']){ ?>
 									<p><?php echo esc_html($current_options['portfolio_description_one']);?></p>
 									<?php } ?>
-								</div>
+									
+                            
+                            
+                            
+								</div>                         
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<?php } 
-			 if($current_options['portfolio_image_two']) { ?>
+			<?php }                                       
+            if($current_options['portfolio_image_two']) { ?>
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
@@ -114,7 +128,7 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 					</div>
 				</div>
 			</div>
-	<?php } ?>
+	    <?php } ?>
 		</div>
 </div>	
 </div>

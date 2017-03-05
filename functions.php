@@ -7,4 +7,6 @@ function CUSTOM_scripts_method(){
     wp_enqueue_script( 'one', get_stylesheet_directory_uri() . '/js/custom_js.js', array('jquery'), '0.0.1');
 };
 
+
+
 ?>
