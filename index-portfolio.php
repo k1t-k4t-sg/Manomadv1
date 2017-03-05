@@ -56,7 +56,7 @@
                                         <h4><?php the_title(); ?></h4>
                                         <p><?php the_excerpt(); ?></p>
                                     </div>
-                                    <div class="home-blog-btn">
+                                    <div class="home-blog-btn CUSTOM_manomadv_one">
                                         <a href="<?php the_permalink(); ?>">Подробнее</a>
                                     </div>
                                 </div>

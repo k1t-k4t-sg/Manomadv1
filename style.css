@@ -7,3 +7,11 @@ Version:        0.0.1
 
 @import url("../wallstreet/style.css");
 
+.CUSTOM_manomadv_one{
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.CUSTOM_manomadv{
+    opacity: 0.4;
+}

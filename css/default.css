@@ -1,0 +1,41 @@
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus,
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.blog-pagination a:hover,
+.blog-pagination a.active,
+.page-links a:hover,
+.page-links a.active,
+.flex_btn, .pagetitle-separator-border,
+.other-service-area:hover i,
+.home-portfolio-showcase-overlay,
+.proejct-btn a:hover,
+.home-blog-btn a,
+.tweet-btn a:hover,
+.post-date,
+.blog-post-date span.date a,
+.sidebar-widget-tags a:hover,
+.tagcloud a:hover,
+.search_btn,
+.search_error,
+.search_heading,
+.sidebar-widget-tags a:hover,
+.blog-author-social li:hover,
+.blogdetail-btn a,
+#blogdetail_btn,
+.wallstreet_page_heading,
+.post-password-form input[type="submit"],
+a.blog-btn{
+    background-color: #3582ac;
+}
+
+.header-top-area, .sidebar-widget-tab > .active a, .pagetitle-separator-box {
+    background: none repeat scroll 0 0 #229bde;
+}
