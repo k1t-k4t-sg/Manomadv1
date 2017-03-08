@@ -33,12 +33,7 @@ tr:hover td{
     color: #fff;
 }
 
-.navbar .navbar-nav > li > a{
-    line-height: 20px;
-    padding: 39px 7px;
-    border-radius: 0px 0px 0px 0px;
-    color: #ffffff;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 13px;
+#styled_video_container{
+    opacity: 0.5;
+    
 }
