@@ -1,9 +1,5 @@
 .navbar .navbar-nav > li > a {
-    line-height: 20px;
     padding: 40px 6px;
-    border-radius: 0px 0px 0px 0px;
-    color: #ffffff;
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 13px;
+    font-weight: bold;
 }
