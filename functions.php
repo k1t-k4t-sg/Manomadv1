@@ -9,7 +9,7 @@ function CUSTOM_scripts_method(){
 
 
 function new_excerpt_length($length) {
-	return 10;
+	return 7;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 
