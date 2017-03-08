@@ -37,3 +37,16 @@ tr:hover td{
     opacity: 0.5;
     
 }
+
+.CUSTOM_SUBMIT_NAME,
+.CUSTOM_SUBMIT_EMAIL,
+.CUSTOM_SUBMIT_TEXT{
+    color: #000000;
+}
+
+.CUSTOM_SUBMIT{
+    color: #ffffff;
+    background: #3582ac;
+    border: none;
+    padding: 10px;
+}
