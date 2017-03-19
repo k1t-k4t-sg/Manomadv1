@@ -48,3 +48,7 @@ a.blog-btn{
     border-top: none;
     border-bottom: none;
 }
+
+.header-top-area, .sidebar-widget-tab>.active a, .pagetitle-separator-box {
+    background: none repeat scroll 0 0 #575963;
+}

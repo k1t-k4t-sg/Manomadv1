@@ -34,7 +34,7 @@
 			<div class="col-md-12">
 				<div class="footer-copyright">
 					<p>
-					    <a href="http://manomadv1.ru/">manomadv1.ru</a> ООО "Экомодель" @ 2017 Все права сохранены. <br />
+					    <a href="http://dev10.reaged.ru">dev10.reaged.ru</a> ООО "Экомодель" @ 2017 Все права сохранены. <br />
                         При поддержке 
                         <a href="https://quareal.ru/"> Quareal Foundation</a> 
 				    </p>

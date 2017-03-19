@@ -43,13 +43,13 @@
 		    <?php 
             /*
             
-            cat=3 вывод категории 3 start
+            cat=4 вывод категории 4 start
             
             */
-                if ( have_posts() ) : query_posts('cat=3'); 
+                if ( have_posts() ) : query_posts('cat=4'); 
                 while (have_posts()) : the_post();
             ?>
-            <div class="col-md-3 col-md-6 home-portfolio-area">
+            <div class="col-md-8 col-md-4 home-portfolio-area">
                 <div class="home-portfolio-showcase">
                     <div class="home-portfolio-showcase-media">
                         <img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php the_post_thumbnail_url(); ?>">
