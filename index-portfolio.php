@@ -52,7 +52,14 @@
             <div class="col-md-8 col-md-4 home-portfolio-area">
                 <div class="home-portfolio-showcase">
                     <div class="home-portfolio-showcase-media">
-                        <img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php the_post_thumbnail_url(); ?>">
+                            
+                            <?php 
+                                $field = get_post_field( 'post_content', get_the_ID(), 'db' );
+                                echo do_shortcode($field);
+                            ?>
+                            
+                            
+                            
                             <div class="home-portfolio-showcase-overlay">
                                 <div class="home-portfolio-showcase-overlay-inner">
                                     <div class="home-portfolio-showcase-detail">
@@ -64,6 +71,8 @@
                                     </div>
                                 </div>
                             </div>
+                            
+                            
                         </div>
                     </div>
                 </div>

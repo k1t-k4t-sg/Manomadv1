@@ -76,6 +76,7 @@ iframe {
 
 .page-mycarousel{
     background: url(./images/one.jpg) repeat scroll 0 0 / cover #143745;
+background-position:0px;
 }
 
 .page-title-col{
@@ -135,14 +136,28 @@ input[type="file"] {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.row .home-portfolio-showcase-media span{
+    display: none;
+}
+
+
+/*
+
 input#author {
     color: #fff;
 }
 
+.home-portfolio-showcase-media img{
+    height: 300px;
+    width: 360px;
+}
+
+img.img-responsive.home-portfolio-img {
+    display: none;
+}
 
 
-
-
+*/
 
 
 
