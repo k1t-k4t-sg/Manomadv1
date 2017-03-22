@@ -72,17 +72,20 @@ add_filter('excerpt_more', function($more) {
 ```
 
 ```php
-// index-portfolio.php
-<?php 
-/* cat=4 вывод категории 4 start */
-    if ( have_posts() ) : query_posts('cat=4'); 
+// index-portfolio.php 
+// cat=4 вывод категории 4 start
+if ( have_posts() ) : query_posts('cat=4'); 
     while (have_posts()) : the_post();
-<?php the_post_thumbnail_url(); ?>
-<?php the_title(); ?
+    $field = get_post_field( 'post_content', get_the_ID(), 'db' );
+    echo do_shortcode($field);
+    the_post_thumbnail_url();
+    the_title(); 
 
-<?php the_permalink(); ?>
+    the_permalink(); 
 
-<?php endwhile; endif; wp_reset_query(); ?>
+endwhile; 
+endif; 
+wp_reset_query(); 
 ```
 
 #### Изменение новостей
