@@ -8,7 +8,6 @@ Version:        0.0.1
 @import url("../wallstreet/style.css");
 
 .CUSTOM_manomadv_one{
-    border: 1px solid #fff;
     text-align: center;
 }
 
@@ -79,10 +78,6 @@ iframe {
 background-position:0px;
 }
 
-.page-title-col{
-    background: rgba(0, 0, 0, 0.17);
-}
-
 .onas{
     text-align: center;
 }
@@ -141,62 +136,26 @@ input[type="file"] {
 }
 
 
-/*
 
-input#author {
-    color: #fff;
+
+
+
+
+body {
+    background-color: #ffffff;
 }
 
-.home-portfolio-showcase-media img{
-    height: 300px;
-    width: 360px;
+td {
+    background: none;
+    color: #000000;
 }
 
-img.img-responsive.home-portfolio-img {
-    display: none;
+tr:nth-child(odd) td, tr:hover td {
+    background: none;
+    color: #000000;
 }
 
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+tr:nth-child(odd):hover td {
+    background: none;
+    color: #000000;
+}

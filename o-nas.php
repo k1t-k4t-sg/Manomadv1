@@ -26,7 +26,7 @@ Template Name: onas
                     <div class="blog-post-title">
                     
                     
-                    <h3 class="onas">Владельцы</h3>
+                    <!--h3 class="onas">Владельцы</h3>
                     <div class="aftor">
                         <div class="muz">
                             <img src="/wp-content/uploads/2017/03/free.jpg"><br>
@@ -42,7 +42,7 @@ Template Name: onas
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium velit animi consectetur quasi eos quas, facere earum eius beatae dolores quam veritatis eaque autem perspiciatis rem. Culpa officia quasi enim!30</p>
                             </div>
                         </div>
-                    </div>
+                    </div-->
                     
                     <?php if (have_posts()): while (have_posts()): the_post(); ?>
                     <?php the_content(); ?>
